@@ -1,0 +1,76 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    background-color: #150734;
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+    color: #0F2557;
+    background-color: black ;
+}
+
+.main{
+    display: flex;
+}
+
+.upload{
+   display: inline-block;
+}
+
+
+.pdf-content{
+    background-color: #3778c2;
+    border: 3px solid black;
+    max-width: 50%;
+}
+
+.pdf-display{
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+
+#resultText{
+    font-family: monospace;           
+    width: fit-content;
+}
+.selected{
+    background-color: burlywood ;
+    padding: 3%;
+}
+
+#btnAdd{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#btnAdd::hover{
+    background-color: chocolate;
+    color: black;
+}
+
+#btnAdd i{
+    pointer-events: none;
+}
+
+.selected{
+    background-color: #3778c2;
+    border: 3px solid black;
+}
+
+.button-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    padding: 1%;
+}

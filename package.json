@@ -1,0 +1,19 @@
+{
+  "name": "research",
+  "version": "1.0.0",
+  "description": "Utility App for Creating Training Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Krishnadas_Nair",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "*"
+  }
+}
