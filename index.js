@@ -3,7 +3,6 @@ const fileUpload = require("express-fileupload");
 const pdfParse = require("pdf-parse");
 
 const app = express();
-let port = process.env.PORT || 3000;
 
 app.use("/", express.static("public"));
 app.use(fileUpload());
@@ -19,4 +18,4 @@ app.post("/extract-text", (req, res) => {
   });
 });
 
-app.listen(port);
+app.listen(process.env.PORT || 3000);
