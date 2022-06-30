@@ -3,7 +3,7 @@ const fileUpload = require("express-fileupload");
 const pdfParse = require("pdf-parse");
 
 const app = express();
-const port = process.env.PORT || 3000;
+let port = process.env.PORT || 3000;
 
 app.use("/", express.static("public"));
 app.use(fileUpload());
