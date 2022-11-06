@@ -7,8 +7,11 @@ The highlighted senetences can be then downloaded as a JSON file.
   
   * Bullet list 
   Upload a CSV file
+  * Bullet list 
   Choose the Row
+   * Bullet list 
   Highlight required Sentence or line
+   * Bullet list 
   Download 
   
 Project was built was using Vanilla JS, CSS, HTML.
