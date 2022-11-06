@@ -5,10 +5,10 @@ The highlighted senetences can be then downloaded as a JSON file.
 
 ## How to use 🤔
   
-  *Upload a CSV file
-  *Choose the Row
-  *Highlight required Sentence or line
-  *Download 
+  * Upload a CSV file
+  * Choose the Row
+  * Highlight required Sentence or line
+  * Download 
   
 Project was built was using Vanilla JS, CSS, HTML.
 
