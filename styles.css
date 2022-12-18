@@ -1,47 +1,49 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-color: #150734;
+    margin: 0;
 }
 
-h1{
+h1 {
     text-align: center;
     color: #3778c2;
     font-family: monospace;
-    background-color: black ;
+    background-color: black;
 }
 
-.main{
+.main {
     display: flex;
 }
 
-.upload{
-   display: inline-block;
+.upload {
+    display: inline-block;
 }
 
 
-.pdf-content{
+.pdf-content {
     background-color: #3778c2;
     border: 3px solid black;
     max-width: 50%;
 }
 
-.pdf-display{
+.pdf-display {
     margin-top: 5%;
     box-sizing: border-box;
 }
 
-#resultText{
+#resultText {
     width: fit-content;
 }
-.selected{
-    background-color: burlywood ;
+
+.selected {
+    background-color: burlywood;
     padding: 3%;
 }
 
-#btnAdd{
+#btnAdd {
     display: none;
     position: absolute;
     cursor: pointer;
@@ -51,27 +53,27 @@ h1{
     z-index: 0;
 }
 
-#btnAdd::hover{
+#btnAdd::hover {
     background-color: chocolate;
     color: black;
 }
 
-#btnAdd i{
+#btnAdd i {
     pointer-events: none;
 }
 
-.selected{
+.selected {
     background-color: #3778c2;
     border: 3px solid black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
 
-.button-area{
+.button-area {
     display: flex;
     justify-content: space-between;
 }
 
-li{
+li {
     padding: 1%;
 }
